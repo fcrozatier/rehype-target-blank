@@ -10,8 +10,16 @@
   "keywords": [
     "rehype-plugin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcrozatier/rehype-target-blank.git"
+  },
   "author": "Frédéric Crozatier",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fcrozatier/rehype-target-blank/issues"
+  },
+  "homepage": "https://github.com/fcrozatier/rehype-target-blank",
   "dependencies": {
     "unist-util-visit": "^4.1.2"
   },
