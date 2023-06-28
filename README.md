@@ -44,14 +44,14 @@ import rehypeTargetBlank from 'rehype-target-plugin';
  * @type {import('mdsvex').MdsvexOptions}
  */
 const mdsvexOptions = {
-	extensions: ['.md'],
-	rehypePlugins: [rehypeTargetBlank]
+  extensions: ['.md'],
+  rehypePlugins: [rehypeTargetBlank]
 };
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	extensions: ['.svelte', '.md'],
-	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
+  extensions: ['.svelte', '.md'],
+  preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 };
 
 export default config;
